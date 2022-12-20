@@ -1,8 +1,9 @@
+import { HeadBar } from '../../components/HeaderBar';
 import './index.css';
 export const MainPage = () => {
     return (
         <div>
-            <div className="top_header"></div>
+            <HeadBar></HeadBar>
         </div>
     );
 };
